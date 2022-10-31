@@ -89,7 +89,7 @@ class Tripcode
             return true;
         }
 
-        $ord = (int) $decimal ?: hexdec($hex);
+        $ord = (int) $dec ?: hexdec($hex);
         return ($ord > self::MAX_UNICODE) // Outside unicode range
             || ($ord < 32) // Control characters
             || ($ord >= 0x7f && $ord <= 0x84) // Control characters
