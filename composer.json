@@ -1,0 +1,19 @@
+{
+    "name": "schnabear/tripcode",
+    "description": "Just another tripcode library",
+    "keywords": ["tripcode", "wakaba", "kareha"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "schnabear"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tripcode\\": "src/"
+        }
+    }
+}
