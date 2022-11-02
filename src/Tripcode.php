@@ -146,7 +146,7 @@ class Tripcode
             $string = str_replace('&', '&amp;', $string);
         } else {
             $string = preg_replace_callback(
-                '/&(#([0-9]+);|#x([0-9A-Fa-f]+);|)/s',
+                '/&(#([0-9]+);|#[Xx]([0-9A-Fa-f]+);|)/s',
                 function ($matches) {
                     list($full, $code_point, $dec, $hex) = array_pad($matches, 4, "");
                     if ($code_point == "") {
