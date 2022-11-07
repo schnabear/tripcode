@@ -3,7 +3,7 @@
 /**
  * Tripcode - Just another tripcode library
  *
- * @author schnabear <https://schnabear.github.io>
+ * @author schnabear
  * @copyright 2018 schnabear
  * @license <http://www.opensource.org/licenses/mit-license.php> MIT
  */
